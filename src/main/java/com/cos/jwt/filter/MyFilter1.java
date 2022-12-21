@@ -9,7 +9,6 @@ import java.io.PrintWriter;
 public class MyFilter1 implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-        System.out.println("안녕?");
         HttpServletRequest req =(HttpServletRequest) request;
         HttpServletResponse res = (HttpServletResponse) response;
         if(req.getMethod().equals("POST")){
