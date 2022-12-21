@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae03037b-86f4-4b13-a4f3-89b5a41988c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/Security_jwtApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/controller/RestApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="ae03037b-86f4-4b13-a4f3-89b5a41988c6" name="Changes" comment="CorsFilter bean 등록">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/config/FilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/config/auth/PrincipalDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/config/auth/PrincipalDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/filter/MyFilter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/filter/MyFilter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/model/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cos/jwt/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cos/jwt/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cos/jwt/controller/RestApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cos/jwt/controller/RestApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +51,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/ijunhyeong/IdeaProjects/security-jwt/build.gradle",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RunManager">
@@ -83,6 +87,18 @@
       <option name="presentableId" value="Default" />
       <updated>1671547888155</updated>
     </task>
+    <task id="LOCAL-00001" summary="CorsFilter bean 등록">
+      <created>1671550584742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671550584742</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CorsFilter bean 등록" />
+    <option name="LAST_COMMIT_MESSAGE" value="CorsFilter bean 등록" />
   </component>
 </project>
